@@ -3,7 +3,7 @@
     <section class="navpanel">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Faculty Analysis</a>
+          <a class="navbar-brand" href="/">Faculty Analysis</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -19,7 +19,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/">
                   Home
                   <span class="sr-only">(current)</span>
                 </a>
@@ -47,7 +47,7 @@ export default {};
 
 <style scoped="scoped">
 .bg-light {
-    background-color: #ffc000 !important;
+    background-color: #f7c033 !important;
 }
 
 .container-fluid {

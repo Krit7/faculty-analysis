@@ -3,6 +3,7 @@
         <nav-bar></nav-bar>
         <main-header></main-header>
         <faculty-view></faculty-view>
+        <copyright-footer></copyright-footer>
     </div>
 </template>
 
@@ -10,6 +11,7 @@
 import NavBar from "./NavBar.vue";
 import MainHeader from "./Header.vue";
 import FacultyView from "./FacultyView.vue";
+import CopyrightFooter from "./CopyrightFooter.vue";
 export default {
   data() {
     return {
@@ -19,7 +21,8 @@ export default {
   components: {
     NavBar: NavBar,
     MainHeader: MainHeader,
-    FacultyView:FacultyView
+    FacultyView:FacultyView,
+    CopyrightFooter
   }
 };
 </script>
