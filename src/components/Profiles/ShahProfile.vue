@@ -224,19 +224,6 @@
                     <strong>No. of Tweets:</strong>
                     {{Tweet_Count}}
                   </p>
-                  <p>
-                    <strong>Top Retweeters</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      <strong>Account Name:</strong> divyanshuaggarw,
-                      <strong>Times:</strong> 1
-                    </li>
-                    <li>
-                      <strong>Account Name:</strong> tweetstulip,
-                      <strong>Times:</strong> 1
-                    </li>
-                  </ul>
                   <div class="embed-responsive embed-responsive-21by9">
                     <iframe class="embed-responsive-item" src="https://nervous-borg-b8eac4.netlify.com/" width="640" height="480"></iframe>
                   </div>
@@ -316,8 +303,6 @@ function filterPost() {
     var p_time = post["TIME"];
     var p_month = parseInt(p_time.slice(3, 5));
     var p_year = parseInt(p_time.slice(6, 10));
-    console.log(p_month);
-    console.log(p_year);
     if (p_month > month && p_year == year) {
       Post.push(post);
     }
