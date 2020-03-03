@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-md-5">
             <div class="link-div">
-              <router-link to="/RajivRatanShah" class="profile-link">
+              <router-link to="/sumitdarak" class="profile-link">
                 <div class="div-profile-img">
                   <img
                     class="profile-img"
@@ -227,6 +227,9 @@
                     <strong>No. of Tweets:</strong>
                     {{Tweet_Count}}
                   </p>
+                  <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://inspiring-wozniak-198f5f.netlify.com/" width="640" height="480"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -381,7 +384,7 @@ export default {
 .name {
   font-size: 64px;
   font-weight: 700;
-  color: #303133;
+  color: balck;
 }
 .name-border {
   position: relative;

@@ -225,13 +225,16 @@
                     {{Tweet_Count}}
                   </p>
                   <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://nervous-borg-b8eac4.netlify.com/" width="640" height="480"></iframe>
+                    <iframe class="embed-responsive-item" src="https://nostalgic-wozniak-463bfe.netlify.com/" width="640" height="480"></iframe>
                   </div>
                   <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://elegant-chandrasekhar-4de3b0.netlify.com/" width="640" height="480"></iframe>
+                    <iframe class="embed-responsive-item" src="https://elated-davinci-2aa5ea.netlify.com/" width="640" height="480"></iframe>
                   </div>
                   <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://thirsty-turing-3df7c5.netlify.com/" width="640" height="480"></iframe>
+                    <iframe class="embed-responsive-item" src="https://competent-swirles-950f8a.netlify.com/" width="640" height="480"></iframe>
+                  </div>
+                  <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://inspiring-wozniak-198f5f.netlify.com/" width="640" height="480"></iframe>
                   </div>
                 </div>
               </div>
@@ -384,7 +387,7 @@ export default {
 .name {
   font-size: 64px;
   font-weight: 700;
-  color: #303133;
+  color: balck;
 }
 .name-border {
   position: relative;
