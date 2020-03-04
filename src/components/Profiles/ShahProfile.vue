@@ -298,30 +298,30 @@ function getskills() {
   });
   return skills;
 }
-function filterPost() {
-  var Post = [];
-  var year = 2019;
-  var month = 8;
-  facebook.forEach(post => {
-    var p_time = post["TIME"];
-    var p_month = parseInt(p_time.slice(3, 5));
-    var p_year = parseInt(p_time.slice(6, 10));
-    if (p_month > month && p_year == year) {
-      Post.push(post);
-    }
-    if (p_year > year) {
-      Post.push(post);
-    }
-  });
-  return Post.slice(0, -1);
-}
+// function filterPost() {
+//   var Post = [];
+//   var year = 2019;
+//   var month = 8;
+//   facebook.forEach(post => {
+//     var p_time = post["TIME"];
+//     var p_month = parseInt(p_time.slice(3, 5));
+//     var p_year = parseInt(p_time.slice(6, 10));
+//     if (p_month > month && p_year == year) {
+//       Post.push(post);
+//     }
+//     if (p_year > year) {
+//       Post.push(post);
+//     }
+//   });
+//   return Post.slice(0, -1);
+// }
 
 const conn_len = Object.keys(linkedin["coonections"]).length;
 const followers = twitter["followers"].length;
 const tweets = twitter["tweets"].length;
 
 const Skills = getskills();
-const FilteredPost = filterPost();
+// const FilteredPost = filterPost();
 
 export default {
   data() {
@@ -343,7 +343,7 @@ export default {
       Twitter_Followers: followers,
       Ret_Freq: twitter["retweeters_freq"],
       Tweet_Count: tweets,
-      Facebook_data: FilteredPost
+      Facebook_data: facebook
     };
   },
   methods: {},
